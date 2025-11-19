@@ -121,6 +121,11 @@
             key-positions = <23 17>;
             timeout-ms = <30>;
         };
+
+        CAPS_WORD {
+            bindings = <&caps_word>;
+            key-positions = <28 41>;
+        };
     };
 
     keymap {
