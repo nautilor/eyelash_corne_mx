@@ -176,10 +176,10 @@
 
         layer_4 {
             bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI    &rgb_ug RGB_HUI                    &trans          &bt BT_CLR_ALL    &bt BT_CLR         &bt BT_PRV  &bt BT_NXT  &trans       &studio_unlock
-&trans           &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD    &rgb_ug RGB_HUD            &trans  &trans  &trans  &ext_power EP_ON  &ext_power EP_OFF  &trans      &trans      &trans       &trans
-&sys_reset       &bootloader      &trans           &trans           &ext_power EP_TOG  &soft_off        &trans            &trans          &soft_off         &ext_power EP_TOG  &trans      &trans      &bootloader  &sys_reset
-                                                   &trans           &trans             &trans                                             &trans            &trans             &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &rgb_ug RGB_BRI   &rgb_ug RGB_SAI    &rgb_ug RGB_HUI                    &trans          &bt BT_CLR_ALL  &bt BT_CLR         &bt BT_PRV        &bt BT_NXT         &trans       &studio_unlock
+&trans           &rgb_ug RGB_EFR  &rgb_ug RGB_SPD    &rgb_ug RGB_BRD   &rgb_ug RGB_SAD    &rgb_ug RGB_HUD            &trans  &trans  &trans  &trans          &trans             &trans            &trans             &trans       &trans
+&sys_reset       &bootloader      &ext_power EP_OFF  &ext_power EP_ON  &ext_power EP_TOG  &soft_off        &trans            &trans          &soft_off       &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF  &bootloader  &sys_reset
+                                                     &trans            &trans             &trans                                             &trans          &trans             &trans
             >;
         };
     };
