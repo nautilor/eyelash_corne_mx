@@ -268,3 +268,5 @@ combos:
   k: {t: '=', s: +}
 - p: [23, 17]
   k: +
+- p: [28, 41]
+  k: $$mdi:alpha-w-box$$
